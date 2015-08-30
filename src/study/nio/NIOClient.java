@@ -7,7 +7,9 @@ import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
-
+/*
+    测试一下效果
+*/
 public class NIOClient {
 
     private static int flag = 0;
