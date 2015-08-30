@@ -26,7 +26,7 @@ public class NIOClient {
         socketChannel.register(selector, SelectionKey.OP_CONNECT);
 
         socketChannel.connect(SERVER_ADDRESS);
-        
+
         Set<SelectionKey> selectionKeys;
         Iterator<SelectionKey> iterator;
         SelectionKey selectionKey;
